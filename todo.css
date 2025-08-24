@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(135deg, #318475 0%, #2346e2 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  color: #318475;
+}
+
+.card {
+  max-width: 600px;
+  margin: auto;
+border-color: black;
+border-width: 5px;
+  
+}
+
+.list-group-item {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.list-group-item.completed {
+  text-decoration: line-through;
+  background-color: #d4edda;
+}
